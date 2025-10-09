@@ -1,0 +1,84 @@
+2025-04-07 01:03:24 - INFO - Starting comprehensive model testing...
+2025-04-07 01:03:24 - INFO - Using device: cuda
+2025-04-07 01:03:33 - INFO - Testing n0.5...
+2025-04-07 01:04:02 - INFO - n0.5 results:
+2025-04-07 01:04:02 - INFO -   Clean Accuracy: 90.51%
+2025-04-07 01:04:02 - INFO -   Perturbed Accuracy: 87.56%
+2025-04-07 01:04:02 - INFO -   Performance Drop: 2.95%
+2025-04-07 01:04:02 - INFO - Testing n0.7...
+2025-04-07 01:04:30 - INFO - n0.7 results:
+2025-04-07 01:04:30 - INFO -   Clean Accuracy: 91.12%
+2025-04-07 01:04:30 - INFO -   Perturbed Accuracy: 88.82%
+2025-04-07 01:04:30 - INFO -   Performance Drop: 2.30%
+2025-04-07 01:04:30 - INFO - Testing n0.9...
+2025-04-07 01:04:58 - INFO - n0.9 results:
+2025-04-07 01:04:58 - INFO -   Clean Accuracy: 90.29%
+2025-04-07 01:04:58 - INFO -   Perturbed Accuracy: 87.57%
+2025-04-07 01:04:58 - INFO -   Performance Drop: 2.72%
+2025-04-07 01:04:58 - INFO - Testing uniform...
+2025-04-07 01:05:26 - INFO - uniform results:
+2025-04-07 01:05:26 - INFO -   Clean Accuracy: 90.41%
+2025-04-07 01:05:26 - INFO -   Perturbed Accuracy: 88.94%
+2025-04-07 01:05:26 - INFO -   Performance Drop: 1.47%
+2025-04-07 01:05:26 - INFO - 
+Model Comparison:
+2025-04-07 01:05:26 - INFO - | Model    | Clean Acc (%) | Perturbed Acc (%) | Performance Drop (%) |
+2025-04-07 01:05:26 - INFO - |----------|---------------|--------------------|-----------------------|
+2025-04-07 01:05:26 - INFO - | n0.5    |         90.51 |              87.56 |                2.95 |
+2025-04-07 01:05:26 - INFO - | n0.7    |         91.12 |              88.82 |                2.30 |
+2025-04-07 01:05:26 - INFO - | n0.9    |         90.29 |              87.57 |                2.72 |
+2025-04-07 01:05:26 - INFO - | uniform |         90.41 |              88.94 |                1.47 |
+2025-04-07 01:05:26 - INFO - Testing completed successfully.
+2025-04-19 14:12:32 - INFO - Starting comprehensive model testing...
+2025-04-19 14:12:32 - INFO - Using device: cuda
+2025-04-19 14:12:40 - INFO - Testing n0.5...
+2025-04-19 14:13:08 - INFO - n0.5 results:
+2025-04-19 14:13:08 - INFO -   Clean Accuracy: 90.51%
+2025-04-19 14:13:08 - INFO -   Perturbed Accuracy: 87.53%
+2025-04-19 14:13:08 - INFO -   Performance Drop: 2.98%
+2025-04-19 14:13:08 - INFO - Testing n0.7...
+2025-04-19 14:13:36 - INFO - n0.7 results:
+2025-04-19 14:13:36 - INFO -   Clean Accuracy: 91.12%
+2025-04-19 14:13:36 - INFO -   Perturbed Accuracy: 88.76%
+2025-04-19 14:13:36 - INFO -   Performance Drop: 2.36%
+2025-04-19 14:13:36 - INFO - Testing n0.9...
+2025-04-19 14:14:04 - INFO - n0.9 results:
+2025-04-19 14:14:04 - INFO -   Clean Accuracy: 90.29%
+2025-04-19 14:14:04 - INFO -   Perturbed Accuracy: 87.92%
+2025-04-19 14:14:04 - INFO -   Performance Drop: 2.37%
+2025-04-19 14:14:04 - INFO - Testing uniform...
+2025-04-19 14:14:32 - INFO - uniform results:
+2025-04-19 14:14:32 - INFO -   Clean Accuracy: 90.41%
+2025-04-19 14:14:32 - INFO -   Perturbed Accuracy: 89.07%
+2025-04-19 14:14:32 - INFO -   Performance Drop: 1.34%
+2025-04-19 14:14:32 - INFO - 
+Model Comparison:
+2025-04-19 14:14:32 - INFO - | Model    | Clean Acc (%) | Perturbed Acc (%) | Performance Drop (%) |
+2025-04-19 14:14:32 - INFO - |----------|---------------|--------------------|-----------------------|
+2025-04-19 14:14:32 - INFO - | n0.5    |         90.51 |              87.53 |                2.98 |
+2025-04-19 14:14:32 - INFO - | n0.7    |         91.12 |              88.76 |                2.36 |
+2025-04-19 14:14:32 - INFO - | n0.9    |         90.29 |              87.92 |                2.37 |
+2025-04-19 14:14:32 - INFO - | uniform |         90.41 |              89.07 |                1.34 |
+2025-04-19 14:14:32 - INFO - Testing completed successfully.
+2025-04-19 14:30:06 - INFO - Starting comprehensive model testing...
+2025-04-19 14:30:06 - INFO - Using device: cuda
+2025-04-19 14:30:14 - ERROR - Error testing baseline: Error(s) in loading state_dict for ResNet:
+	Missing key(s) in state_dict: "fc.1.weight", "fc.1.bias". 
+	Unexpected key(s) in state_dict: "fc.weight", "fc.bias". 
+2025-04-19 14:30:15 - INFO - Testing n0.5...
+2025-04-19 14:30:42 - INFO - n0.5 results:
+2025-04-19 14:30:42 - INFO -   Clean Accuracy: 90.51%
+2025-04-19 14:30:42 - INFO -   Perturbed Accuracy: 88.40%
+2025-04-19 14:30:42 - INFO -   Performance Drop: 2.11%
+2025-04-19 14:30:42 - INFO - Testing n0.7...
+2025-04-19 14:31:10 - INFO - n0.7 results:
+2025-04-19 14:31:10 - INFO -   Clean Accuracy: 91.12%
+2025-04-19 14:31:10 - INFO -   Perturbed Accuracy: 88.95%
+2025-04-19 14:31:10 - INFO -   Performance Drop: 2.17%
+2025-04-19 14:31:10 - INFO - Testing n0.9...
+2025-04-19 14:34:21 - INFO - Starting comprehensive model testing...
+2025-04-19 14:34:21 - INFO - Using device: cuda
+2025-04-19 14:34:21 - ERROR - Critical error during testing: cannot access local variable 'ResNet18' where it is not associated with a value
+2025-04-19 14:36:05 - INFO - Starting comprehensive model testing...
+2025-04-19 14:36:05 - INFO - Using device: cuda
+2025-04-19 14:36:05 - ERROR - Critical error during testing: cannot access local variable 'ResNet18' where it is not associated with a value

@@ -1,0 +1,80 @@
+2025-04-06 20:35:11 - INFO - Using device: cuda
+2025-04-06 20:35:12 - INFO - Loaded 50000 Grad-CAM values
+2025-04-06 20:35:12 - INFO - Created augmented dataset with 100000 observations:
+2025-04-06 20:35:12 - INFO -   - 50000 original images
+2025-04-06 20:35:12 - INFO -   - 50000 perturbed images
+2025-04-06 20:35:58 - INFO - Epoch: 1/5 | Batch: 100/625 | Loss: 0.770 | Acc: 75.141%
+2025-04-06 20:36:04 - INFO - Epoch: 1/5 | Batch: 200/625 | Loss: 0.666 | Acc: 78.668%
+2025-04-06 20:36:11 - INFO - Epoch: 1/5 | Batch: 300/625 | Loss: 0.603 | Acc: 80.711%
+2025-04-06 20:36:18 - INFO - Epoch: 1/5 | Batch: 400/625 | Loss: 0.563 | Acc: 81.949%
+2025-04-06 20:36:25 - INFO - Epoch: 1/5 | Batch: 500/625 | Loss: 0.534 | Acc: 82.873%
+2025-04-06 20:36:32 - INFO - Epoch: 1/5 | Batch: 600/625 | Loss: 0.514 | Acc: 83.526%
+2025-04-06 20:37:09 - INFO - Epoch: 1/5 | Train Loss: 0.508 | Val Loss: 0.400 | Train Acc: 83.705% | Val Acc: 86.975%
+2025-04-06 20:37:09 - INFO - Validation loss improved from inf to 0.400235. Saving model...
+2025-04-06 20:37:44 - INFO - Epoch: 2/5 | Batch: 100/625 | Loss: 0.349 | Acc: 88.812%
+2025-04-06 20:37:51 - INFO - Epoch: 2/5 | Batch: 200/625 | Loss: 0.354 | Acc: 88.629%
+2025-04-06 20:37:58 - INFO - Epoch: 2/5 | Batch: 300/625 | Loss: 0.347 | Acc: 88.747%
+2025-04-06 20:38:06 - INFO - Epoch: 2/5 | Batch: 400/625 | Loss: 0.345 | Acc: 88.854%
+2025-04-06 20:38:13 - INFO - Epoch: 2/5 | Batch: 500/625 | Loss: 0.339 | Acc: 89.064%
+2025-04-06 20:38:20 - INFO - Epoch: 2/5 | Batch: 600/625 | Loss: 0.336 | Acc: 89.126%
+2025-04-06 20:39:02 - INFO - Epoch: 2/5 | Train Loss: 0.335 | Val Loss: 0.352 | Train Acc: 89.172% | Val Acc: 88.430%
+2025-04-06 20:39:02 - INFO - Validation loss improved from 0.400235 to 0.351657. Saving model...
+2025-04-06 20:39:42 - INFO - Epoch: 3/5 | Batch: 100/625 | Loss: 0.278 | Acc: 91.133%
+2025-04-06 20:39:49 - INFO - Epoch: 3/5 | Batch: 200/625 | Loss: 0.285 | Acc: 90.793%
+2025-04-06 20:39:56 - INFO - Epoch: 3/5 | Batch: 300/625 | Loss: 0.279 | Acc: 90.966%
+2025-04-06 20:40:03 - INFO - Epoch: 3/5 | Batch: 400/625 | Loss: 0.278 | Acc: 91.047%
+2025-04-06 20:40:11 - INFO - Epoch: 3/5 | Batch: 500/625 | Loss: 0.278 | Acc: 90.994%
+2025-04-06 20:40:18 - INFO - Epoch: 3/5 | Batch: 600/625 | Loss: 0.276 | Acc: 91.076%
+2025-04-06 20:40:54 - INFO - Epoch: 3/5 | Train Loss: 0.274 | Val Loss: 0.336 | Train Acc: 91.124% | Val Acc: 88.870%
+2025-04-06 20:40:54 - INFO - Validation loss improved from 0.351657 to 0.335751. Saving model...
+2025-04-06 20:41:30 - INFO - Epoch: 4/5 | Batch: 100/625 | Loss: 0.240 | Acc: 92.117%
+2025-04-06 20:41:36 - INFO - Epoch: 4/5 | Batch: 200/625 | Loss: 0.244 | Acc: 92.008%
+2025-04-06 20:41:43 - INFO - Epoch: 4/5 | Batch: 300/625 | Loss: 0.242 | Acc: 92.109%
+2025-04-06 20:41:50 - INFO - Epoch: 4/5 | Batch: 400/625 | Loss: 0.240 | Acc: 92.158%
+2025-04-06 20:41:58 - INFO - Epoch: 4/5 | Batch: 500/625 | Loss: 0.240 | Acc: 92.200%
+2025-04-06 20:42:05 - INFO - Epoch: 4/5 | Batch: 600/625 | Loss: 0.240 | Acc: 92.191%
+2025-04-06 20:42:42 - INFO - Epoch: 4/5 | Train Loss: 0.239 | Val Loss: 0.237 | Train Acc: 92.220% | Val Acc: 91.950%
+2025-04-06 20:42:42 - INFO - Validation loss improved from 0.335751 to 0.237250. Saving model...
+2025-04-06 20:43:16 - INFO - Epoch: 5/5 | Batch: 100/625 | Loss: 0.204 | Acc: 93.367%
+2025-04-06 20:43:23 - INFO - Epoch: 5/5 | Batch: 200/625 | Loss: 0.199 | Acc: 93.668%
+2025-04-06 20:43:30 - INFO - Epoch: 5/5 | Batch: 300/625 | Loss: 0.202 | Acc: 93.534%
+2025-04-06 20:43:38 - INFO - Epoch: 5/5 | Batch: 400/625 | Loss: 0.207 | Acc: 93.340%
+2025-04-06 20:43:45 - INFO - Epoch: 5/5 | Batch: 500/625 | Loss: 0.209 | Acc: 93.256%
+2025-04-06 20:43:52 - INFO - Epoch: 5/5 | Batch: 600/625 | Loss: 0.208 | Acc: 93.251%
+2025-04-06 20:44:29 - INFO - Epoch: 5/5 | Train Loss: 0.208 | Val Loss: 0.250 | Train Acc: 93.264% | Val Acc: 91.455%
+2025-04-06 20:44:29 - INFO - No improvement in validation loss for 1 epochs
+2025-04-06 20:44:29 - INFO - Loading best model from fine_tuned_models/best_model.pt
+2025-04-06 20:44:45 - INFO - Final Test Accuracy: 90.350%
+2025-04-06 20:44:45 - INFO - Fine-tuning finished!
+2025-04-06 22:08:11 - INFO - 
+========================================
+Training n_05 configuration
+========================================
+2025-04-06 22:08:12 - INFO - Loaded 50000 Grad-CAM values
+2025-04-06 22:08:26 - INFO - 
+========================================
+Training n_05 configuration
+========================================
+2025-04-06 22:08:27 - INFO - Loaded 50000 Grad-CAM values
+2025-04-06 22:17:00 - INFO - n_05 Training Time: 0.14 hours
+2025-04-06 22:17:00 - INFO - n_05 Peak GPU Memory: 832.60 MB
+2025-04-06 22:17:00 - INFO - 
+========================================
+Training n_07 configuration
+========================================
+2025-04-06 22:17:02 - INFO - Loaded 50000 Grad-CAM values
+2025-04-06 22:25:29 - INFO - n_07 Training Time: 0.14 hours
+2025-04-06 22:25:29 - INFO - n_07 Peak GPU Memory: 834.35 MB
+2025-04-06 22:25:29 - INFO - 
+========================================
+Training n_09 configuration
+========================================
+2025-04-06 22:25:30 - INFO - Loaded 50000 Grad-CAM values
+2025-04-06 22:33:54 - INFO - n_09 Training Time: 0.14 hours
+2025-04-06 22:33:54 - INFO - n_09 Peak GPU Memory: 834.35 MB
+2025-04-06 22:33:54 - INFO - 
+========================================
+Training uniform configuration
+========================================
+2025-04-06 22:42:09 - INFO - uniform Training Time: 0.14 hours
+2025-04-06 22:42:09 - INFO - uniform Peak GPU Memory: 834.35 MB

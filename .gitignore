@@ -1,0 +1,24 @@
+Ignore large dataset and model files
+
+data/cifar-10-python.tar.gz
+cifar10_fgsm.pt
+resnet18.pt
+fine_tuned_models/
+
+Ignore Python specific files
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+Ignore virtual environment  and PDF folders
+
+venv/
+env/
+PDFs/
+
+Ignore IDE/Editor specific files
+
+.vscode/
+.idea/
