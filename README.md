@@ -1,4 +1,4 @@
-# 🛡️ Adversarial Defense with Perlin Noise
+# Adversarial Defense with Perlin Noise
 
 This repository contains the implementation of an adversarial defense mechanism for Purdue's CS587 final project. The approach uses region-adaptive Perlin noise to enhance the robustness of a ResNet-18 model against adversarial attacks on the CIFAR-10 dataset. 
 
@@ -10,10 +10,10 @@ The core idea is to apply noise adaptively. Uniform noise can obscure important 
 
 **Key features**:
 
-* 🧠 **Region-Adaptive Noise:** Applies Perlin noise with varying intensity based on image region importance, identified using Grad-CAM heatmaps.
-* 🛡️ **Adversarial Training:** Fine-tunes a pre-trained ResNet-18 model on a mixed dataset of clean and noise-augmented images to improve robustness.
-* ⚔️ **Attack Evaluation:** Includes scripts to test the model's performance against both procedural noise and gradient-based attacks like the Fast Gradient Sign Method (FGSM).
-* 📊 **Visual Analysis:** Generates visualizations of Perlin noise patterns and Grad-CAM heatmaps to provide insight into the defense mechanism.
+* **Region-Adaptive Noise:** Applies Perlin noise with varying intensity based on image region importance, identified using Grad-CAM heatmaps.
+* **Adversarial Training:** Fine-tunes a pre-trained ResNet-18 model on a mixed dataset of clean and noise-augmented images to improve robustness.
+* **Attack Evaluation:** Includes scripts to test the model's performance against both procedural noise and gradient-based attacks like the Fast Gradient Sign Method (FGSM).
+* **Visual Analysis:** Generates visualizations of Perlin noise patterns and Grad-CAM heatmaps to provide insight into the defense mechanism.
   
 ---
 
@@ -27,7 +27,7 @@ The core idea is to apply noise adaptively. Uniform noise can obscure important 
     ```
 
 2.  **Pre-trained Model:** This project requires a pre-trained ResNet-18 model for CIFAR-10. The model weights are provided in the repository cited above. You must download the `resnet18.pt` file and place it in the root directory of this project.
-    * **Download Link:** You can acquire the model file from the original [PyTorch_CIFAR10 repository's `cifar10_models` folder](https://github.com/huyvnphan/PyTorch_CIFAR10).
+    * **Download Link:** You can acquire the model file from the original [PyTorch_CIFAR10 repository's cifar10_models folder](https://github.com/huyvnphan/PyTorch_CIFAR10).
 
 ---
 
